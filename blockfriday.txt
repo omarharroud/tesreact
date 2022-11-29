@@ -1,0 +1,138 @@
+<section class="block bg-gray7 block--n malivebox new-block" style="background-color:#000;padding-top: 10px;padding-bottom: 40px;/* color: #FFFFFF; */">
+	
+	
+	<style>
+	
+		
+@media screen and (min-width: 575px) {
+	.imgfridaymobile{
+		display:none;
+}
+		}
+@media screen and (max-width: 576px) {
+		  #blackfridaygridone .item1{
+     grid-column:auto/span 4;
+  }
+  #blackfridaygridone .item2{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridone .item3{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridone .item4{
+     grid-column:auto/span 2;
+  }
+
+
+ #blackfridaygridtwo .item1{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridtwo .item2{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridtwo .item3{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridtwo .item4{
+    order: -1;
+    grid-column: auto/span 4;
+  }
+
+  #blackfridaygridthree .item1{
+     grid-column:auto/span 4;
+  }
+  #blackfridaygridthree .item2{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridthree .item3{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridthree .item4{
+     grid-column:auto/span 2;
+  }
+  #blackfridaygridthree img{
+     margin-bottom:0 !important;
+  }
+  #blackfridaygridtwo img{
+     margin-bottom:0 !important;
+  }
+  #blackfridaygridone img{
+     margin-bottom:0 !important;
+  }
+  #blackfridaygridtwo{
+     margin-top:10px !important;
+  }
+  #blackfridaygridthree{
+     margin-top:10px !important;
+  }
+  .imgfridaydesktop{
+	 display:none !important;
+  }
+	#bf{
+		width:80% !important;
+	}
+	
+}
+	.parent{
+             background-color:#ff7900;
+    }
+    .bannergrid{
+      display:grid;
+      grid-template-columns:1fr 2fr;
+    }
+    .img-banner{
+      width:100%;
+      height:100%;
+clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+
+      background-color:#000;
+      }
+@media only screen and (max-width: 575px) {
+    
+    header {
+        top: 134px !important;
+    }
+}
+      
+	</style>
+    <div class="container" style="" id="sectlivebox">
+       <article class="onlineediteur onlineediteur--block" id="sectionlivebox">
+            <div class="ezxmltext-field" style='display:grid;grid-template-columns: 1fr 1fr 1fr 1fr;    grid-gap: 10px;
+    margin-top: 10px;' id="blackfridaygridone">
+				 <div class="item1"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/1-iPhone-13-Prov4.png"></div>
+                 <div class="item2"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/7-iPhone-12-mini-128GB-Green.png"></div>
+                 <div class="item3"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/8-Xiaomi-Redmi-Note-10Sv3.png"></div>
+			     <div class="item4"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/Xiaomi-Mi-11-LITE-v2.png"></div>
+		   </div>
+		   <div class="ezxmltext-field" style='display:grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 10px;' id="blackfridaygridtwo">
+				 <div class="item1"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/2-Samsung-S20-ultra-black.png" ></div>
+                 <div class="item2"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/1-Samsung-S20%2B-black.png"></div>
+                 <div class="item3"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/4-Samsung-S21-Plus-8.png"></div>
+			     <div class="item4"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/2-iPhone-13v4.png"></div> 
+			</div>
+		   
+		  
+		   
+		   <div class="ezxmltext-field" style='display:grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 10px;' id="blackfridaygridthree">
+			 
+				<div class="item1"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/3-Tvv4.png"></div>
+				<div class="item2"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/5-Samsung-Galaxy-Z-Flip3-Gream.png"></div>
+				<div class="item3"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/10-Samsung-Galaxy-S22-Plusv2.png"></div>
+				<div class="item4"><img src="https://orange-maroc.net/blackfridaytemplate/img/img2/3-Galaxy-Tab-A-8.png"></div>
+			</div>
+		   
+        </article>
+    </div>
+	<script>
+		
+		if (window.matchMedia("(max-width: 575px)").matches) {
+			//document.querySelector('#banfriday').src="https://orange-maroc.net/blackfridaytemplate/img/bannier%20mobil.png"
+			
+        } else {
+            
+        }
+	
+			
+	
+	</script>
+</section>
